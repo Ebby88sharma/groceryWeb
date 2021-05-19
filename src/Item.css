@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  z-index: 1;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  border-radius: 25px;
+}
+.item > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
+.item__price {
+  margin-top: 5px;
+}
+
+.item__info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+.item > button {
+  background: #41a53f;
+  border: 1px solid;
+  margin-top: 10px;
+  color: #ffff;
+}

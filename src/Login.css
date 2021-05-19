@@ -1,0 +1,70 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.login__logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.login__banner {
+  width: 40%;
+  height: auto;
+}
+.login__form {
+  padding: 10px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  margin-top: 70px;
+  align-items: flex-end;
+  margin-right: 100px;
+  border: #333333 solid;
+}
+
+.login__form > input[type="email"],
+input[type="password"] {
+  border-radius: 50px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.login__form > button {
+  border-radius: 50px;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.7;
+}
+.login__form > h1 {
+  margin-bottom: 10px;
+}
+.login__form > h6 {
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: right;
+}
+.fb {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.gm {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.login__formc__reateLink {
+  padding-bottom: 10px;
+}
